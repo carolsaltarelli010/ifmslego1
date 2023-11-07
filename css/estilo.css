@@ -1,0 +1,102 @@
+.um{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+}
+.amareloum{
+	width: 15%;
+	background-color: darkgreen;
+}
+.vermelhoum{
+	width: 85%;
+	background-color: darkgreen;
+	display: flex;
+	justify-content: flex-end;
+}
+#inputum{
+	margin-top: 3vh;
+	margin-right: 5vh;
+	width: 25vh;
+	height: 3vh;
+}
+input::placeholder{
+	color: green;
+}
+.laranja{
+	width: 100%;
+	height: 15vh;
+	background-color: lightgrey;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.laranja img{
+	width: 55vh;
+}
+.dois{
+	width: 100%;
+	height: 60vh;
+	display: flex;
+}
+.vermelhodois{
+	width: 70%;
+	margin-left: 8vh;
+	margin-top: 2vh;
+}
+.vermelhodois img{
+ 	width: 85vh;
+}
+#h2{
+	color: blue;
+	font-family: sans-serif;
+}
+.azulum{
+	width: 30%;
+	margin-top: 2vh;	
+}
+.azulum img{
+	width: 45vh;
+	margin-bottom: 2vh;
+}
+.verdeum{
+	width: 100%;
+	height: 20vh;
+	background-color: darkgreen;
+}
+@media(max-width: 760px){
+	.pai{
+		flex-direction: column;
+	}
+	.amareloum{
+		width: 100%;
+		text-align: center;
+	}
+	.vermelhoum{
+		display: none;
+	}
+	input{
+		display: none;
+	}
+	.laranja{
+		display: none;
+	}
+	.dois{
+		display: flex;
+	}
+	.vermelhodois{
+		width: 100%;
+		margin-top: 15px;
+	}
+	.vermelhodois img{
+		width: 60vh;
+		margin-bottom: 3vh;
+	}
+	.azulum{
+		width: 100%;
+		height: 20vh;
+		margin-bottom: 100px;
+	}
+	.azulum img{
+		width: 100%;
+	}
+}
